@@ -1,0 +1,182 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/1/19)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	% If your name is very short, use just one of the lines below
+	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Nikita}}}}} % First name
+
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Razobreev}}}}} % Last name
+
+	\vspace{6pt}
+
+	{\huge Middle Gameplay Programmer} % Career or current job title
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth} % 27.5% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{MapMarker}{12}{Saint-Petersburg, Russia}\\
+	\icon{Phone}{12}{+7 (911) 844-73-54}\\
+	\icon{At}{12}{\href{mailto:nikitarazdobreev94@gmail.com}{nikitarazdobreev94@gmail.com}}\\
+	\icon{Github}{12}{\href{https://github.com/yahuaru}{github.com/yahuaru}}\\
+\end{minipage}
+
+\vspace{0.5cm}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\cvsect{Skills}
+
+\begin{center}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\begin{barchart}{5.5}
+		\baritem{Python}{90}
+		\baritem{C++}{70}
+		\baritem{C\#}{60}
+		\baritem{SQL}{50}
+		\baritem{Git}{70}
+		\baritem{SVN}{70}
+	\end{barchart}
+\end{center}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\cvsect{Experience}
+
+\begin{entrylist}
+	\entry
+	{Apr 2019 -- present}
+	{Middle Gameplay Programmer}
+	{\href{https://na.wargaming.net/en/games/wowsconsole}{Wargaming Saint-Petersburg}}
+	{
+
+		Was responsible for support and development of "World of Warships: Legends"
+		\begin{itemize}
+			\item Implemented new core and meta gameplay features \\for online game with large user base
+			\item Supported and fixed legacy code
+			\item Developed new features for Server Core with decentralized architecture
+			\item Integrated Server logic with RESTful Web Services
+			\item Optimized code for better performance on 8th generation of consoles
+			\item Developed editor toolset for gamedesigners
+		\end{itemize}
+		\texttt{Python}\slashsep\texttt{Cython}\slashsep\texttt{C++}\slashsep\texttt{SQL}\slashsep\texttt{GIT}\slashsep\texttt{SVN}}
+	\entry
+	{Jan 2018 -- Mar 2019}
+	{Gameplay Programmer}
+	{\href{https://www.thepsycho.net/}{The Psycho®}}
+	{
+
+	Was responsible for gameplay programming and deployment of VR games
+	\begin{itemize}
+		\item Developed local multiplayer games for full body VR devices
+		\item Implemented core gameplay features such as multiplayer shooting and AI for enemies
+		\item Optimized code and content for best performance on VR devices
+		\item Created workflow pipelines for content creators and VR tracking developers
+	\end{itemize}
+	{\texttt{C++}\slashsep\texttt{Unreal Engine 4}\slashsep\texttt{GIT}\slashsep\texttt{SVN}}
+	}
+	\entry
+	{Oct 2016 -- Nov 2017}
+	{Junior Gameplay Programmer}
+	{OctoBox interactive}
+	{
+
+	Was responsible for gameplay prototyping for unreleased Unity games
+	\begin{itemize}
+		\item Core gameplay and network programming for unreleased multiplayer card game
+		\item Gameplay programming for unreleased train tycoon game
+		\item Core gameplay and graphics programming for "Gripper" game
+	\end{itemize}
+	{\texttt{C\#}\slashsep\texttt{Unity}\slashsep\texttt{Python}\slashsep\texttt{GIT}}
+	}
+	\entry
+	{Fab 2016 -- Jul 2016}
+	{Junior Gameplay Programmer}
+	{\href{http://lazybeargames.com/}{Lazy Bear Games}}
+	{
+
+	Support for released Unity games
+	\begin{itemize}
+		\item QA and bug fixing for legacy projects on Unity
+		\item Data analysis of player behavior for gameplay balancing
+	\end{itemize}
+	{\texttt{C\#}\slashsep\texttt{Unity}\slashsep\texttt{Python}}
+	}
+	\entry
+	{Jan 2015 -- Nov 2015}
+	{Junior Gameplay Programmer}
+	{Islania}
+	{
+
+	Gameplay and UI prototyping for unreleased MMO \\ {\texttt{C++}\slashsep\texttt{Unreal Engine 4}}
+	}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\cvsect{Education}
+
+\begin{entrylist}
+	\entry
+	{2012-2016}
+	{Bachelor's degree in Applied Mathematics \& Computer Science \\ \footnotesize{Saint Petersburg Electrotechnical University "LETI"} }
+	{}
+	{}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.5\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\cvsect{Languages}
+
+	\textbf{English} - upper intermediate\\
+	\textbf{Russian} - native
+\end{minipage}
+\hfill
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
